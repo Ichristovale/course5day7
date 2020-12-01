@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <title>Fruit Bowl App</title>
+    
+    <link href="css/fruit-bowl-app.css" rel="stylesheet">
+    
+</head>
+    
+<body>
+
+    <header>
+        
+        <h3 id="totPrice">
+            
+        </h3>
+        
+        <button onclick="addFruit()">
+            Random Fruit
+        </button>
+        
+        <select name="fruitMenu" id="fruitMenu" onchange="addFruit()">
+        </select>
+        
+    </header>
+    
+    <div id="container"> 
+        
+        <div id="blender">
+            <!-- holds fruit -->
+        </div>
+        
+        <button id="onButton" onclick="mix()">
+            ON</button>
+
+    </div>
+    
+    <div id="receipt">
+    </div>
+    
+
+    <script src="js/fruit-bowl-app.js"></script>
+    
+    <script>
+        
+        // 0.) Make an application development folder: "fruit-bowl-app"
+        // into that folder put the "images" / "fruit" folders. Also make folders for "js", "json" and "css". And add these files:
+        
+        // 1.) Make a new HTML File called fruit-bowl-app.html and get the bowl to appear big on the page. Best approach would be to make the bowl the BG Img of a Div. Don't use an img tag for the bowl, because we are gonna fill the bowl w fruit
+        
+        // 2.) Put all CSS in a separate page called css/fruit-bowl-app.css. Import the css file into the head of the html.
+        
+        // 3.) Make a JS file called js/fruit-bowl-app.js to hold the scripts for the application. Import the js file into the html.
+        
+        // 4.) Make a JSON file called "fruit.json" to hold the fruit data as a JSON Array. Each JSON Obj should have 2 properties: "name" and "price".
+        
+        // 5.) Keeping the fruit bowl div empty (with nothing but the BG image), Add two interactive form elements above the fruit bowl div in a skinny header: 
+            // a.) Button called "Random Fruit". Button should call the "getRandomFruit()" function
+            // b.) Select Menu containing options (choices) for each fruit.
+        // Do some CSS for header, button, select so that it looks nice
+        
+        // 6.) In the same header, make an h3 to display messages. 
+        // Start with a simple welcome message 
+            
+    </script>
+    
+</body>
+
+</html>

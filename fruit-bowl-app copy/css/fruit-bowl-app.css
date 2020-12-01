@@ -1,0 +1,99 @@
+@charset = "utf-8";
+
+body {
+    background-color: cornflowerblue;
+    padding: 3rem;
+}
+
+header {
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#container {
+    position: relative;
+    background-image: url(../images/blender/blender.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1000px;
+    height: 800px;
+    margin: 50px auto;
+}
+
+#blender {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 400px;
+    height: 415px;
+    left: 250px;
+    top: 130px;
+    border-radius: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#onButton {
+    position: absolute;
+    height: 110px;
+    width: 120px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: aliceblue;
+    color: cornflowerblue;
+    left: 500px;
+    top: 629px;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#receipt {
+    position: absolute;
+    width: 350px;
+    padding: 2rem 1rem;
+    min-height: 400px;
+    background-color: forestgreen;
+    z-index: 3;
+    top: 150px;
+    left: 150px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2rem;
+    font-weight: bold;
+    border-radius: 35px; 
+}
+
+button, select {
+    margin: 10px 20px;
+    padding: 10px 25px;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: beige;
+    font-family: sans-serif;
+    font-size: 2rem;
+    display: inline;
+    margin: 10px 20px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+

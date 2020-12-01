@@ -1,0 +1,11 @@
+[
+    { "name": "Apple", "price": "1.50" },
+    { "name": "Banana", "price": "1.00" },
+    { "name": "Grapes", "price": "2.50" },
+    { "name": "Kiwi", "price": "2.50" },
+    { "name": "Mango", "price": "3.50" },
+    { "name": "Orange", "price": "2.50" },
+    { "name": "Peach", "price": "2.00" },
+    { "name": "Pear", "price": "2.00" },
+    { "name": "Plum", "price": "2.50" }
+]
