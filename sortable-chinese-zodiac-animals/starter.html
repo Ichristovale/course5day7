@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <title>Sort Chinese Zodic</title>
+
+    <link href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css " rel="stylesheet " integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN " crossorigin="anonymous ">
+
+    <link rel="stylesheet" href="css/sortable-chinese-zodiac-animals.css">
+    
+    <style></style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+           
+            <h1>Sortable Chinese Zodiac Animals</h1>
+            
+            <button onclick="loadJSON('json/animals.json')">AJAX LOAD JSON</button>
+            
+            <button onclick="sortByKey('eng')"> 
+            <i class="fas fa-sort"></i> &nbsp; ENGLISH</button>
+            
+            <button onclick="sortByKey('pin')"> 
+            <i class="fas fa-sort"></i> &nbsp; PINYIN</button>
+            
+            <button onclick="sortByKey('year')"> 
+            <i class="fas fa-sort"></i> &nbsp; YEAR</button>
+            
+
+
+
+        </header>
+        <div id="app"></div>
+    </div>
+    <script src="js/sortable-chinese-zodiac-animals.js">
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+</body>
+
+</html>

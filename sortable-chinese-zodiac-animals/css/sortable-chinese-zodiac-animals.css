@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+
+
+body {
+    background-color: #AAA;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #555;
+    font-family: sans-serif;
+
+
+}
+
+.container {
+    width: 1300px;
+    margin: 20px auto;
+    min-height: 750px;
+    background-color: #DDD;
+    padding: 20px;
+}
+
+button {/* button that load and sort the data*/
+Width: 250px;
+    padding: 10px;
+    margin:0 10px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #555;
+}
+
+#app {
+    width:90%;
+    padding: 15px;
+    min-height: 500px;
+    background-color: #CCC;
+    margin: 20px auto;
+    
+}
+
+
+.divvy {/* the divs that hold the animals one per div*/
+    background-color: #FFF;
+    min-height: 50px;
+    font-size: 1.75rem;
+    padding: 10px 20px;
+    margin: 15px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.pic {
+    width: 70px;
+    margin: 5px 20px;
+    
+}
+
+.en{/*big, bold English names of the animals*/
+font-size:2rem;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+    margin: 0 10px;
+    
+}
+
+.pn {/*big bold pinyin names of the animals*/
+font-size: 2rem;
+    font-weight: bold;
+    color: #900;
+    margin: 0 10px;
+}
+
+span {
+    margin-left: 35px;
+    padding: 10px;
+    font-size: 1.25rem;
+    
+}
+
